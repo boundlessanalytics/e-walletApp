@@ -1,0 +1,108 @@
+/* Container styling */
+#card-element {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Adjust the maximum width as needed */
+    // margin: 0 auto; /* Center the element on the page */
+  }
+  
+  /* Card input field styling */
+  #card-element input {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Card error message styling */
+  #card-errors {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Customize the focus state of the card element */
+  #card-element.focus {
+    border-color: #007bff; /* Change the border color when focused */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.6); /* Add a subtle box shadow */
+  }
+  
+  /* Customize the invalid state of the card element */
+  #card-element.invalid {
+    border-color: #dc3545; /* Change the border color for invalid input */
+  }
+  
+  /* Style the card brand icon */
+  #card-brand-icon {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  /* Style the card brand text */
+  #card-brand {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style the expiration date and CVC fields if needed */
+  #card-expiry,
+  #card-cvc {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 45%; /* Adjust the width as needed */
+    margin-right: 5px; /* Add some spacing between the fields */
+  }
+  
+  /* Style the submit button */
+  #submit-button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the submit button */
+  #submit-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Match the styling of the card-element */
+.form-label {
+  font-size: 16px;
+  color: #333; /* Text color */
+  padding: 10px; /* Padding around labels */
+}
+
+.form-control {
+  font-size: 16px;
+  color: #333; /* Text color */
+  padding: 10px; /* Padding around input fields */
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 4px; /* Border radius */
+}
+
+.form-select {
+  font-size: 16px;
+  color: #333; /* Text color */
+  padding: 10px; /* Padding around select fields */
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 4px; /* Border radius */
+}
+
+/* Style the 'Please select' option */
+.form-select option[value=""] {
+  color: #777; /* Color for the placeholder option */
+}
+
+  
